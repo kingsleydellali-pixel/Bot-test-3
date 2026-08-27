@@ -1,0 +1,30 @@
+{
+  "name": "king-xd-bot-mini",
+  "version": "1.0.0",
+  "description": "Professional WhatsApp Multi-Device Bot with Management, Downloader, and Protection Tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.7",
+    "express": "^4.19.2",
+    "pino": "^9.2.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.4",
+    "yt-dlp-exec": "^1.0.4",
+    "googlethis": "^1.8.0",
+    "duckduckgo-search": "^0.3.1",
+    "node-fetch": "^2.7.0",
+    "remove.bg": "^2.1.4",
+    "jimp": "^0.22.12",
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "ᴋɪɴɢsʟᴇʏ-xᴍᴅ ᴛᴇᴄʜ",
+  "license": "MIT"
+}
