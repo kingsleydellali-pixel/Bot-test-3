@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: king-xd-bot-mini
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+    envVars:
+      - key: OWNER_NUMBER
+        sync: false
+      - key: BOT_NAME
+        value: KING-XD BOT MINI
+      - key: PREFIX
+        value: .
+      - key: PORT
+        value: 3000
+    healthCheckPath: /status
