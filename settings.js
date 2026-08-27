@@ -1,6 +1,6 @@
 module.exports = {
     botName: "KING-XD BOT MINI",
-    ownerNumber: process.env.OWNER_NUMBER || "234XXXXXXXXXX", // Your WhatsApp number with country code
+    ownerNumber: process.env.OWNER_NUMBER || "233535502036", // Your WhatsApp number with country code
     prefix: ".",
     sessionFolder: "auth_info_baileys",
     downloaderApi: "http://localhost:5000/download", // Self-hosted yt-dlp API endpoint (if used)
