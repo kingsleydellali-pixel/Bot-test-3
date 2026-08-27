@@ -7,7 +7,7 @@ services:
     plan: free
     envVars:
       - key: OWNER_NUMBER
-        sync: false
+        sync: true
       - key: BOT_NAME
         value: KING-XD BOT MINI
       - key: PREFIX
